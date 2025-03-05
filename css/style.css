@@ -36,5 +36,25 @@
 }
 
 .search-form {
+    display: flex;
     width: 60.29%;
+    height: 57px;
+    background-color: #EDEDED;
+    border-radius: 15px;
+}
+
+.search-form > button {
+    display: block; 
+    box-sizing: border-box;
+    width: 20%;
+    height: 57px;
+    background: url(../assets/icons/search.svg) center no-repeat;
+}
+
+.search-form > input {
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    padding: 19.5px 0;
+    font-size: 16px;
+    font-weight: 500;
 }
