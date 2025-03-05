@@ -76,4 +76,13 @@
     color: #FFFFFF;
     background-color: #141416;
     border-radius: 16px;
+    transition: background-color 0.1s ease-in;
+}
+
+.crypto-wallet-btn:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.crypto-wallet-btn:active {
+    background-color: #141416;
 }
