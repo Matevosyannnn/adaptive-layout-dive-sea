@@ -1,2 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;600;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./css-reset.css);
+
+.page-header, 
+.header-left-col-grp,
+.header-right-col-grp,
+.header-nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header {
+    width: 86.87%;
+    height: 58px;
+}
+
+.header-left-col-grp {
+    width: 44.40%;
+}
+.header-right-col-grp {
+    width: 46.20%;
+}
+
+.header-nav {
+    width: 81%;
+}
+
+.search-form {
+    width: 60.29%;
+}
