@@ -34,6 +34,12 @@
     font-weight: 500;
     line-height: 26.7px;
     color: #606060;
+    transition: color 0.2s ease-in;
+}
+
+.header-nav a:hover {
+    color: #141416;
+    transition: color 0.2s ease-in;
 }
 
 .search-form {
