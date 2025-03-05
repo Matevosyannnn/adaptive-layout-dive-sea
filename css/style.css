@@ -58,3 +58,15 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+.crypto-wallet-btn {
+    font-family: "Inter", sans-serif;
+    font-size: 16.17px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-transform: uppercase;
+    padding: 16.17px 24.26px;
+    color: #FFFFFF;
+    background-color: #141416;
+    border-radius: 16px;
+}
