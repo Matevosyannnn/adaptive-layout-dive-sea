@@ -20,6 +20,8 @@
     background-color: #141416;
 }
 
+/* HEADER */
+
 .page-header, 
 .header-left-col-grp,
 .header-right-col-grp,
@@ -105,3 +107,5 @@
 .crypto-wallet-btn:active {
     background-color: #141416;
 }
+
+/* PROMO SECTION */
