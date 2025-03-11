@@ -211,16 +211,6 @@ main {
     border-radius: 25px;
 }
 
-.pr-sect-l-img::after {
-    display: block;
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -100px;
-    background: url(../assets/images/Rectangle.png) 0 0 / center no-repeat;
-}
-
 .pr-sect-r-img-grp {
     width: 43.19%;
 }
