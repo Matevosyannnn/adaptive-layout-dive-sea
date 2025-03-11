@@ -145,6 +145,11 @@ main {
     margin-top: 16px;
 }
 
+.bonus-highlight {
+    font-weight: 600;
+    color: #141416;
+}
+
 .pr-sect-btns-grp {
     margin-top: 45px;
     display: flex;
