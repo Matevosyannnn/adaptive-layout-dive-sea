@@ -117,6 +117,16 @@ main {
 /* PROMO SECTION */
 
 .promo-section {
+    width: 100%;
+}
+
+.promo-section::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.promo-sect-wrapper {
     display: flex;
     justify-content: space-between;
     width: 93.26%;
