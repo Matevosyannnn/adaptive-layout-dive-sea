@@ -195,3 +195,58 @@ main {
     display: block;
     margin-top: 6px;
 }   
+
+.pr-sect-imgs-grp {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 54.17%;
+}
+
+.pr-sect-l-img {
+    position: relative;
+    margin-top: 19px;
+    width: 53.78%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.pr-sect-l-img::after {
+    display: block;
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    background: url(../assets/images/Rectangle.png) 0 0 / center no-repeat;
+}
+
+.pr-sect-r-img-grp {
+    width: 43.19%;
+}
+
+.pr-sect-svg-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pr-sect-arr-svg {
+    display: block;
+    background: url(../assets/images/arrow.svg) bottom / contain no-repeat;
+    transform: rotateZ(-3deg);
+    width: 41%;
+    height: auto;
+}
+
+.pr-sect-dot-collection {
+    background: url(../assets/images/dot-collection.png) left no-repeat;
+    width: 116.28px;
+    height: 192.22px;
+}
+
+.pr-sect-r-img {
+    margin-top: 7.7px;   
+    width: calc(100% - 18px);
+    float: right;
+    border-radius: 22.35px 0 0 22.35px;
+}
