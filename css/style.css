@@ -71,6 +71,7 @@ body {
     display: flex;
     width: 60.29%;
     height: 57px;
+    overflow: hidden;
     background-color: #EDEDED;
     border-radius: 15px;
 }
