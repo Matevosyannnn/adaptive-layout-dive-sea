@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;600;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./css-reset.css);
 
+body {
+    background-color: #FCFCFC;
+}
+
 .btn {
     font-family: "Poppins", sans-serif;
     font-size: 16.27px;
