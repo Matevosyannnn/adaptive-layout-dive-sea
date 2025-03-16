@@ -293,3 +293,162 @@ main {
     border-radius: 22.35px 0 0 22.35px;
     z-index: 1;
 }
+
+/* WEEKLY TOP SECTION */
+
+.weekly-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    margin-top: 214px;
+}
+
+.weekly-top > h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #C5C5C5;
+}
+
+.weekly-sect-nft-list {
+    margin-top: 91px;
+    display: flex;
+    gap: 40px;
+}
+
+.weekly-sect-nft-list > li {
+    width: 281px;
+    height: 402px;
+    padding: 14.1px 14.1px 20.5px 14.1px;
+    background-color: #FFFFFF;
+    border-radius: 23.5px;
+    box-shadow:
+        38.82px 11.76px 58.81px rgba(199, 199, 199, 0.6),
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nft-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrapper {
+    display: flex;
+    position: relative;
+    border-radius: 23.5px;
+    overflow: hidden;
+}
+
+.img-wrapper > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.img-wrapper > time {
+    position: absolute;
+    top: 14px;
+    right: 9.3px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 9.4px 14.1px;
+    background-color: rgba(28, 29, 32, 0.35);
+    box-shadow: 0 4.7px 14.1px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(5.5px);
+    border-radius: 9.4px;
+    z-index: 1;
+}
+
+.nft-card > h2 {
+    font-size: 21.1px;
+    line-height: 29.5px;
+    font-weight: 600;
+    color: #141416;
+    text-transform: capitalize;
+}
+
+.bid-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bid-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bid-label {
+    line-height: 21px;
+    color: #94A3B8;
+}
+
+.bid-btn {
+    padding: 15.4px 25.4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bid-amount {
+    display: flex;
+    align-items: center;
+    gap: 2.3px;
+}
+
+.bid-icon {
+    display: block;
+    width: 21.1px;
+    height: 21.1px;
+    background: url('../assets/icons/nft.svg') center no-repeat;
+}
+
+.bid-value {
+    display: block;
+    font-size: 16.4px;
+    font-weight: 500;
+    line-height: 24.6px;
+    color: #141416;
+}
+
+.slide-switches {
+    display: flex;
+    align-items: center;
+    margin-top: 114.7px;
+    overflow: hidden;
+    border-radius: 17.25px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 25px 30px -10px rgba(15, 15, 15, 0.15);;
+}
+
+.slide-btn {
+    box-sizing: content-box;
+    width: 25.87px;
+    height: 25.87px;
+    padding: 21.5px;
+    background-color:#FCFCFC;
+}
+
+.slide-btn:hover > svg > path{
+    fill: #929292;
+    transition: fill 0.2s ease-in;
+}   
+
+.left-slide-btn {
+    padding-right: 34.5px;
+}
+
+.right-slide-btn {
+    padding-left: 34.5px;
+}
+
+.slide-switches-sep {
+    width: 2.1px;
+    height: 25.87px;
+    background-color: #E6E8EC;
+    border-radius: 2.16px;
+}
